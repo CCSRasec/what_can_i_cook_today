@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/registerRecipeFragment"
+        android:title="@string/item_menu_bottom_navigation_register_recipe" />
+    <item
+        android:id="@+id/searchRecipeFragment"
+        android:enabled="true"
+        android:title="@string/item_menu_bottom_navigation_search_recipe" />
+    <item
+        android:id="@+id/surpriseRecipeFragment"
+        android:title="@string/item_menu_bottom_navigation_surprise_recipe" />
+</menu>

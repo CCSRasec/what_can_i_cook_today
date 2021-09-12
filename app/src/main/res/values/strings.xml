@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">What can i cook today ?</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="item_menu_bottom_navigation_search_recipe">Search for possible recipes</string>
+    <string name="item_menu_bottom_navigation_surprise_recipe">Surprise recipe</string>
+    <string name="item_menu_bottom_navigation_register_recipe">Register recipe</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

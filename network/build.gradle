@@ -1,0 +1,67 @@
+import dependencies.Dependencies
+
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+
+android {
+    buildTypes {
+
+        debug {
+//            minifyEnabled false
+//            buildConfigField "String", "API_URL", "\"http://ec2-52-7-149-176.compute-1.amazonaws.com/Agent_v4/api/\""
+//            buildConfigField "String", "API_KEY", "\"usend_test\""
+//            buildConfigField "String", "API_PASSWORD", "\"28D921D6D717141B75279DE24B852\""
+//            buildConfigField "String", "GOOGLE_KEY", "\"AIzaSyBUACXics3CeFqogkys8LVFdIZ8gD9yjC8\""
+//
+//            buildConfigField "String", "IP_URL", "\"https://api.ipify.org\""
+//            buildConfigField "String", "THREAT_METRIX_URL", "\"https://h-api.online-metrix.net/api/\""
+//            buildConfigField "String", "THREAT_METRIX_ORG_ID", "\"aihsd29c\""
+//            buildConfigField "String", "THREAT_METRIX_API_KEY", "\"7b0vhiya9x1xrki8\""
+//            buildConfigField "String", "PLAID_API_URL", "\"https://sandbox.plaid.com/\""
+//            buildConfigField "String", "PLAID_CLIENT_ID", "\"5ee1450bf3f46f0014a7a97b\""
+//            buildConfigField "String", "PLAID_SECRET", "\"0f0174087682de3238ac69ee323d40\""
+//            buildConfigField "String", "PLAID_ENVIRONMENT", "\"sandbox\""
+//            buildConfigField "String", "PLAID_BASE_URL", "\"https://cdn.plaid.com/link/v2/stable/link.html\""
+        }
+
+        release {
+//            minifyEnabled true
+//
+//            buildConfigField "String", "API_URL", "\"http://ec2-52-7-149-176.compute-1.amazonaws.com/Agent_v4/api/\""
+//            buildConfigField "String", "API_KEY", "\"usend_test\""
+//            buildConfigField "String", "API_PASSWORD", "\"28D921D6D717141B75279DE24B852\""
+//            buildConfigField "String", "GOOGLE_KEY", "\"AIzaSyBUACXics3CeFqogkys8LVFdIZ8gD9yjC8\""
+//
+//            buildConfigField "String", "IP_URL", "\"https://api.ipify.org\""
+//            buildConfigField "String", "THREAT_METRIX_URL", "\"https://h-api.online-metrix.net/api/\""
+//            buildConfigField "String", "THREAT_METRIX_ORG_ID", "\"aihsd29c\""
+//            buildConfigField "String", "THREAT_METRIX_API_KEY", "\"7b0vhiya9x1xrki8\""
+//            buildConfigField "String", "PLAID_API_URL", "\"https://production.plaid.com/\""
+//            buildConfigField "String", "PLAID_CLIENT_ID", "\"5ee1450bf3f46f0014a7a97b\""
+//            buildConfigField "String", "PLAID_SECRET", "\"3bb9397e914580188ae74feab5046f\""
+//            buildConfigField "String", "PLAID_ENVIRONMENT", "\"production\""
+//            buildConfigField "String", "PLAID_BASE_URL", "\"https://cdn.plaid.com/link/v2/stable/link.html\""
+//
+//            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+
+//    implementation Dependencies.kotlinStdlib
+//
+//    api Dependencies.retrofit
+//    api Dependencies.retrofitGsonConverter
+//    implementation Dependencies.okhttp
+//    implementation Dependencies.okhttpLogger
+//
+//    implementation Dependencies.lifecycle
+//
+//    api Dependencies.coroutinesCore
+//    api Dependencies.coroutinesAndroid
+//    implementation Dependencies.coroutinesAdapter
+//
+//    api Dependencies.hawk
+}

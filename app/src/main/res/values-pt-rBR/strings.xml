@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">O que posso cozinhar hoje?</string>
+    <string name="item_menu_bottom_navigation_search_recipe">Buscar receitas possíveis</string>
+    <string name="item_menu_bottom_navigation_surprise_recipe">Receita surpresa</string>
+    <string name="item_menu_bottom_navigation_register_recipe">Cadastrar Receita</string>
+</resources>

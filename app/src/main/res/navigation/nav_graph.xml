@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/searchRecipeFragment">
+
+    <fragment
+        android:id="@+id/surpriseRecipeFragment"
+        android:name="com.app.what_can_i_cook_today.ui.surpriserecipe.SurpriseRecipeFragment"
+        android:label="fragment_surprise_recipe"
+        tools:layout="@layout/fragment_surprise_recipe" />
+
+    <fragment
+        android:id="@+id/searchRecipeFragment"
+        android:name="com.app.what_can_i_cook_today.ui.searchrecipe.SearchRecipeFragment"
+        android:label="fragment_search_recipe"
+        tools:layout="@layout/fragment_search_recipe" />
+    <fragment
+        android:id="@+id/registerRecipeFragment"
+        android:name="com.app.what_can_i_cook_today.ui.registerrecipe.RegisterRecipe"
+        android:label="fragment_register_recipe"
+        tools:layout="@layout/fragment_register_recipe" />
+</navigation>
